@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Votechain</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Votechain by Coding Monks</h1>
+        <button id="connectWalletButton">Connect Wallet</button>
+
+        <input type="text" id="proposalNameInput" placeholder="Enter proposal name">
+        <button id="createProposalButton">Create Proposal</button>
+
+        <div id="proposalsSection">
+            <h2>Proposals</h2>
+            <ul id="proposalsList"></ul>
+        </div>
+    </div>
+
+    <script src="web3.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
